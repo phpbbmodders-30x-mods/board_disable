@@ -8,12 +8,13 @@
 		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
 		<title lang="en"><![CDATA[Custom Board Disabled Page]]></title>
 		<description lang="en"><![CDATA[This mod provides a better styled maintenance page(disabled board page).]]></description>
+		<author-notes lang="en"><![CDATA[This was originally  posted at Kenny's former "6 String MOD" site. Originally in repsonse to a mod request by stokerpiller in this topic http://www.phpbb.com/community/viewtopic.php?f=72&t=1555195]]></author-notes>
 		<author-group>
 			<author>
 				<realname><![CDATA[Kenny Cameron]]></realname>
 				<username><![CDATA[cherokee red]]></username>
 				<contributions-group>
-					<contributions status="past" position="Developer"/>
+					<contributions status="past" from="2009-06-04" to="2010-10-13" position="Developer"/>
 				</contributions-group>
 			</author>
 			<author>
@@ -38,8 +39,8 @@
 					<change><![CDATA[Converted from Snippet format to MODX.]]></change>
 					<change><![CDATA[Removed hard coded language from board_disabled.html and moved it to a language variable L_BOARD_INSTALLED]]></change>
 					<change><![CDATA[Added T_ADM_PATH for the path to the admin style sheet]]></change>
-					<change><![CDATA[Added login link to board_disabled.html for admins or mods that get logged out ]]></change>					
-					<change><![CDATA[Added BOARD_DISABLED check around the board disabled message, so it doesn't show when only the Install folder is still present.]]></change>					
+					<change><![CDATA[Added login link to board_disabled.html for admins or mods that get logged out]]></change>
+					<change><![CDATA[Added BOARD_DISABLED check around the board disabled message, so it doesn't show when only the Install folder is still present.]]></change>
 				</changelog>
 			</entry>
 		</history>
@@ -152,5 +153,8 @@
       <!-- ENDIF -->]]></action>
 			</edit>
 		</open>
+		<diy-instructions lang="en"><![CDATA[*** NOTE: If you are installing via Automod you may skip to step 2 ***
+1. Make all edits to all files and upload them to your forum.    
+2. Refresh the prosilver template and imageset.]]></diy-instructions>
 	</action-group>
 </mod>
